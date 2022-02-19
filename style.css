@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+}
+
+.header, .hero, .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 300px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 400px 0 400px;
+}
+
+.left-side {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.right-side {
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 400px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.secondary-text {
+    font-size: 18px;
+}
+
+.hero-button {
+    width: 120px;
+    height: 40px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-desc {
+    display: flex;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 0 100px 0;
+    gap: 52px;
+}
+
+.infos {
+    width: 200px;
+    height: 200px;
+    padding: 0 0 60px 0;
+}
+
+.info-text {
+    text-align: center;
+    font-size: 18px;
+}
+.img {
+    border-style: groove;
+    border-radius: 20px;
+    border-color: #3882f6;
+    width: 200px;
+    height: 200px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0 80px 0;
+    background-color: #e5e7eb;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    width: 800px;
+}
+
+.quote-person {
+    font-size: 28px;
+    font-weight: 800;
+    width: 800px;
+    text-align: end;
+}
+
+.call-to-action {
+    display: flex;
+    padding: 50px 0 50px 0;
+    align-items: center;
+    flex-direction: column;
+}
+
+.action {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+}
